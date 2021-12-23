@@ -7,8 +7,8 @@ services:
     tty: true
     volumes:
       - type: volume
-        source: app
-        target: /app
+        source: python-app
+        target: /python-app
 volumes: 
-  app:
-    name: app
+  python-app:
+    name: python-app
